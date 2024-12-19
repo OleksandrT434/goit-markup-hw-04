@@ -231,10 +231,8 @@ button {
 
 .icon {
     background: #f4f4fd;
-    border: 1px solid #8e8f99;
     border-radius: 4px;
-    width: 264px;
-    height: 112px;
+
 }
 .cosmo {
     display: flex;
@@ -348,6 +346,7 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .text-future1 {
@@ -366,12 +365,8 @@ button {
     justify-content: center;
     gap: 24px;
 }
-.media-icon-staff {
-    width: 40px;
-    height: 40px;
-}
 
-.staff-list .social-link .media-icon-staff .link {
+.staff-list .social-link .media-icon-staff {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -380,20 +375,13 @@ button {
     background-color:#4d5ae5;
     border-radius: 50%;
 }
-.media-icon-staff {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #4D5AE5;
+.staff-list .social-link .media-icon-staff:hover,
+.staff-list .social-link .media-icon-staff:focus {
+    background-color: #404bbf
 }
 
 .media-icon-staff .link {
     fill: #FFFFFF;
-    width: 20px;
-    height: 20px;
 }
 
 /* 4 секція */
