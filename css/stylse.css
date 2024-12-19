@@ -565,6 +565,7 @@ button {
     margin-bottom: 16px;
 }
 .footer-cont {
+    align-items: baseline;
     gap: 16px;
     margin: 0 auto;
 }
