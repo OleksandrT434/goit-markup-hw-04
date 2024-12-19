@@ -541,7 +541,7 @@ button {
 .media-icon-footer:hover {
     background-color: #31D0AA;
 }
-.media{
+.end-hero .container{
     display: flex;
     align-items: baseline;
     margin-right: 120px;
