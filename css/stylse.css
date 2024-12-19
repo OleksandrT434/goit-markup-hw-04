@@ -526,6 +526,7 @@ button {
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .media-icon-footer svg {
@@ -540,15 +541,20 @@ button {
     gap: 16px;
 }
 
-.media-icon-footer:hover
+.media-icon-footer:hover,
 .media-icon-footer:focus {
-    background-color: #31D0AA;
+    background-color: #31d0aa;
 }
 .end-hero .container{
     display: flex;
     align-items: baseline;
     margin-right: 120px;
 
+}
+.link {
+    fill: #f4f4fd;
+    width: 24px;
+    height: 24px;
 }
 .second-text{
     font-weight: 500;
