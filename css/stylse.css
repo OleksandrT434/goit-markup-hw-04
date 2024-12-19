@@ -517,6 +517,8 @@ button {
 }
 
 .media-icon-footer {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -538,7 +540,8 @@ button {
     gap: 16px;
 }
 
-.media-icon-footer:hover {
+.media-icon-footer:hover
+.media-icon-footer:focus {
     background-color: #31D0AA;
 }
 .end-hero .container{
@@ -558,6 +561,9 @@ button {
 .footer-cont {
     gap: 16px;
     margin: 0 auto;
+}
+.media-text{
+    margin-right: 120px;
 }
 
 /*   #endregion footer*/
