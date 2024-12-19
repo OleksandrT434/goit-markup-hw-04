@@ -541,9 +541,20 @@ button {
 .media-icon-footer:hover {
     background-color: #31D0AA;
 }
+.media-text{
+    margin-right: 120px;
 
+}
+.second-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
 .footer-cont {
-    display: block;
+    display: flex;
     gap: 16px;
     margin: 0 auto;
 }
