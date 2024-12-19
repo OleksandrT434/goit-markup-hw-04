@@ -541,7 +541,9 @@ button {
 .media-icon-footer:hover {
     background-color: #31D0AA;
 }
-.media-text{
+.media{
+    display: flex;
+    align-items: baseline;
     margin-right: 120px;
 
 }
@@ -554,7 +556,6 @@ button {
     margin-bottom: 16px;
 }
 .footer-cont {
-    display: flex;
     gap: 16px;
     margin: 0 auto;
 }
